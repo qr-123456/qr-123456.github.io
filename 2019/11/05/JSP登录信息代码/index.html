@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Archives: 2019 | Hexo</title>
+  <title>JSP登录信息代码 | Hexo</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -59,7 +59,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -167,117 +167,242 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2>YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.</h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p>每一个不曾起舞的日子都是对生命的辜负。</p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-
-
-
-
-<section id="services">
+      
+<section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2019/11/05/JSP登录信息代码/">JSP登录信息代码</a></h4>
-                            
-                            <p><time datetime="2019-11-05T03:09:20.000Z"><a href="/2019/11/05/JSP登录信息代码/">2019-11-05</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2019/10/31/创业前须知/">创业前须知</a></h4>
-                            
-                            <p><time datetime="2019-10-31T09:46:02.000Z"><a href="/2019/10/31/创业前须知/">2019-10-31</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2019/10/31/JSP基本语法/">JSP基本语法</a></h4>
-                            
-                            <p><time datetime="2019-10-31T09:42:23.000Z"><a href="/2019/10/31/JSP基本语法/">2019-10-31</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2019/10/23/HTML/">HTML</a></h4>
-                            
-                            <p><time datetime="2019-10-23T01:12:20.000Z"><a href="/2019/10/23/HTML/">2019-10-23</a></time></p>
-                        </div>
-                    
-                        
-                            </div><div class="row boxes">
-                            
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2019/10/16/数据库命令/">数据库命令</a></h4>
-                            
-                            <p><time datetime="2019-10-16T12:22:19.000Z"><a href="/2019/10/16/数据库命令/">2019-10-16</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2019/10/10/Java/"></a></h4>
-                            
-                            <p><time datetime="2019-10-10T10:44:44.872Z"><a href="/2019/10/10/Java/">2019-10-10</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2019-11-05T03:09:20.000Z" itemprop="datePublished">
+          2019-11-05
+      </time>
+    
+</span>
+                <h1>JSP登录信息代码</h1>
+            </div>
         </div>
-    </div>
-</section> 
+        <div class="col-md-8 col-md-offset-2">
+      		<p>登录<br>&lt;%@ page language=”java” import=”java.util.<em>,java.net.</em>“ contentType=”text/html; charset=utf-8”%&gt;<br>&lt;%<br>    String path = request.getContextPath();<br>    String basePath = request.getScheme() + “://“<br>            + request.getServerName() + “:” + request.getServerPort()<br>            + path + “/“;<br>%&gt;</p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head><meta name="generator" content="Hexo 3.9.0">
+  <base href="<%=basePath%>" rel="external nofollow">
 
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>虽然还没想好写点什么，但是总觉得这里放句话比较和谐。</p>
+  <title>My JSP 'index.jsp' starting page</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">  
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="This is my page">
+     <!--
+    <link rel="stylesheet" type="text/css" href="styles.css" rel="external nofollow" rel="external nofollow" rel="external nofollow" >
+    -->
+ </head>
+
+ <body>
+  <h1>用户登录</h1>
+  <hr>
+  <% request.setcharacterencoding("utf-8"); string username ; password cookie[] cookies="request.getCookies();" if(cookies!="null&&cookies.length">0)
+   {
+      for(Cookie c:cookies)
+      {
+       if(c.getName().equals("username"))
+       {
+          username = URLDecoder.decode(c.getValue(),"utf-8");
+       }
+       if(c.getName().equals("password"))
+       {
+          password = URLDecoder.decode(c.getValue(),"utf-8");
+       }
+      }
+   }
+  %>
+  <form name="loginForm" action="DoLogin.jsp" method="post">
+    <table>
+     <tr>
+      <td>用户名：</td>
+      <td><input type="text" name="username" value="<%=username %>"></td>
+     </tr>
+     <tr>
+      <td>密码：</td>
+      <td><input type="password" name="password" value="<%=password %>"></td>
+     </tr>
+     <tr>
+      <td colspan="2"><input type="checkbox" name="isUseCookie" checked="checked">十天内记住我的登录状态</td>
+     </tr>
+     <tr>
+      <td colspan="2" align="center"><input type="submit" value="登录"><input type="reset" value="取消"></td>
+     </tr>
+    </table>
+  </form>
+ </%></body>
+</html>
+
+
+<p>登录成功<br>&lt;%@ page language=”java” import=”java.util.<em>,java.net.</em>“ contentType=”text/html; charset=utf-8”%&gt;<br>&lt;%<br>String path = request.getContextPath();<br>String basePath = request.getScheme()+”://“+request.getServerName()+”:”+request.getServerPort()+path+”/“;<br>%&gt;</p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head><meta name="generator" content="Hexo 3.9.0">
+  <base href="<%=basePath%>" rel="external nofollow">
+
+  <title>My JSP 'dologin.jsp' starting page</title>
+
+<pre><code>&lt;meta http-equiv=&quot;pragma&quot; content=&quot;no-cache&quot;&gt;
+&lt;meta http-equiv=&quot;cache-control&quot; content=&quot;no-cache&quot;&gt;
+&lt;meta http-equiv=&quot;expires&quot; content=&quot;0&quot;&gt;  
+&lt;meta http-equiv=&quot;keywords&quot; content=&quot;keyword1,keyword2,keyword3&quot;&gt;
+&lt;meta http-equiv=&quot;description&quot; content=&quot;This is my page&quot;&gt;
+ &lt;!--
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles.css&quot; rel=&quot;external nofollow&quot; rel=&quot;external nofollow&quot; rel=&quot;external nofollow&quot; &gt;
+--&gt;</code></pre> </head>
+
+ <body>
+  <h1>登录成功</h1>
+  <hr>
+  <br>
+  <br>
+  <br>
+  <% request.setcharacterencoding("utf-8"); 首先判断用户是否选择了记住登录状态 string[] isusecookies="request.getParameterValues(" isusecookie");" if(isusecookies!="null&&isUseCookies.length">0)
+    {
+     //把用户名和密码保存在Cookie对象里面
+     String username = URLEncoder.encode(request.getParameter("username"),"utf-8");
+     //使用URLEncoder解决无法在Cookie当中保存中文字符串问题
+     String password = URLEncoder.encode(request.getParameter("password"),"utf-8");
+
+<pre><code> Cookie usernameCookie = new Cookie(&quot;username&quot;,username);
+ Cookie passwordCookie = new Cookie(&quot;password&quot;,password);
+ usernameCookie.setMaxAge(864000);
+ passwordCookie.setMaxAge(864000);//设置最大生存期限为10天
+ response.addCookie(usernameCookie);
+ response.addCookie(passwordCookie);
+}
+else
+{
+ Cookie[] cookies = request.getCookies();
+ if(cookies!=null&amp;&amp;cookies.length&gt;0)
+ {
+   for(Cookie c:cookies)
+   {
+    if(c.getName().equals(&quot;username&quot;)||c.getName().equals(&quot;password&quot;))
+    {
+      c.setMaxAge(0); //设置Cookie失效
+      response.addCookie(c); //重新保存。
+    }
+   }
+ }
+}</code></pre><p>  %&gt;<br>  <a href="Users.jsp" rel="external nofollow" target="_blank">查看用户信息</a></p>
+ </%></body>
+
+</html>
+
+<p>显示用户信息<br>&lt;%@ page language=”java” import=”java.util.<em>,java.net.</em>“ contentType=”text/html; charset=utf-8”%&gt;<br>&lt;%<br>String path = request.getContextPath();<br>String basePath = request.getScheme()+”://“+request.getServerName()+”:”+request.getServerPort()+path+”/“;<br>%&gt;</p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head><meta name="generator" content="Hexo 3.9.0">
+  <base href="<%=basePath%>" rel="external nofollow">
+
+  <title>My JSP 'users.jsp' starting page</title>
+
+<pre><code>&lt;meta http-equiv=&quot;pragma&quot; content=&quot;no-cache&quot;&gt;
+&lt;meta http-equiv=&quot;cache-control&quot; content=&quot;no-cache&quot;&gt;
+&lt;meta http-equiv=&quot;expires&quot; content=&quot;0&quot;&gt;  
+&lt;meta http-equiv=&quot;keywords&quot; content=&quot;keyword1,keyword2,keyword3&quot;&gt;
+&lt;meta http-equiv=&quot;description&quot; content=&quot;This is my page&quot;&gt;
+ &lt;!--
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles.css&quot; rel=&quot;external nofollow&quot; rel=&quot;external nofollow&quot; rel=&quot;external nofollow&quot; &gt;
+--&gt;</code></pre> </head>
+
+ <body>
+  <h1>用户信息</h1>
+  <hr>
+  <% request.setcharacterencoding("utf-8"); string username ; password cookie[] cookies="request.getCookies();" if(cookies!="null&&cookies.length">0)
+   {
+      for(Cookie c:cookies)
+      {
+       if(c.getName().equals("username"))
+       {
+          username = URLDecoder.decode(c.getValue(),"utf-8");
+       }
+       if(c.getName().equals("password"))
+       {
+          password = URLDecoder.decode(c.getValue(),"utf-8");
+       }
+      }
+   }
+  %>
+  <br>
+  <br>
+  <br>
+     用户名：<%=username %><br>
+     密码：<%=password %><br>
+ </%=password></%=username></%></body>
+</html>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
+    
+    
+    <a class="pull-right" href="/2019/10/31/创业前须知/">
+        创业前须知 →
+    </a>
+    
+</nav>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-24"><script type="text/javascript">
+  /**
+   * 搜狐畅言
+   */
+
+  /*
+  document.write('<div id="SOHUCS" sid="' + window.location.pathname.slice(1) + '" ></div>');
+
+  window.onload = function () {
+    (function () {
+      var appid = 'cytXXXX';
+      var conf = 'prod_xxxxxxxxxxxxxxxxx';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      var loadJs = function (d, a, id) {
+        var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+        var b = document.createElement("script");
+        b.setAttribute("type", "text/javascript");
+        b.setAttribute("charset", "UTF-8");
+        b.setAttribute("src", d);
+        if (id) {
+          b.setAttribute("id", id);
+        }
+        if (typeof a === "function") {
+          if (window.attachEvent) {
+            b.onreadystatechange = function () {
+              var e = b.readyState;
+              if (e === "loaded" || e === "complete") {
+                b.onreadystatechange = null;
+                a()
+              }
+            }
+          } else {
+            b.onload = a
+          }
+        }
+        c.appendChild(b)
+      };
+
+      loadJs("https://changyan.sohu.com/upload/changyan.js", function () {
+        window.changyan.api.config({
+          appid: appid,
+          conf: conf
+        })
+      });
+    })();
+  }
+  */
+
+</script>
+</div>
     </div>
 </section>
+
+
       
 <!-- ============================ Footer =========================== -->
 
